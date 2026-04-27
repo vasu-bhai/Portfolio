@@ -11,7 +11,7 @@ export const personalInfo = {
   phone: "+91 7016431646",
   linkedin: "https://www.linkedin.com/in/vasu-panseriya-1096042b4/",
   github: "https://github.com/vasu-bhai",
-  resumeLink: "/Resume.pdf",
+  resumeLink: "/resume.pdf",
   location: "Ahmedabad, Gujarat",
 };
 
