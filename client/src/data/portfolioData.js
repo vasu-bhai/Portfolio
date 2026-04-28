@@ -4,7 +4,7 @@
 
 export const personalInfo = {
   name: "Vasu Panseriya",
-  tagline: "Full-Stack Developer & AI/ML Enthusiast",
+  tagline: "AI/ML Enthusiast",
   shortIntro:
     "I build modern web applications and explore AI/ML solutions. Passionate about turning ideas into impactful, real-world products.",
   email: "[vasupanseriya135@gmail.com]",
@@ -17,15 +17,17 @@ export const personalInfo = {
 
 export const aboutData = {
   paragraphs: [
-    "I'm a passionate software developer currently pursuing my degree in Computer Science. My journey in tech started with curiosity about how apps and websites work, and it has evolved into a deep interest in building scalable, user-friendly applications.",
-    "I specialize in full-stack web development using the MERN stack and have a growing interest in Artificial Intelligence and Machine Learning. I love solving real-world problems through code and continuously learning new technologies.",
-    "When I'm not coding, you'll find me exploring research papers, contributing to open-source projects, or brainstorming startup ideas that can make a difference.",
+    "I am a final-year Computer Science student focused on Machine Learning and AI-driven problem solving.",
+    "I have built projects like customer churn prediction using neural networks and smart energy consumption forecasting using Random Forest, where I handled the full pipeline—data preprocessing, feature engineering, model building, and evaluation.",
+    "My strength lies in transforming raw data into meaningful features and building models that generalize well on real-world data. I am experienced with structured datasets, experimenting with algorithms, and evaluating model performance using proper metrics.",
+    "I am seeking opportunities to apply my ML skills to real-world problems and grow in building scalable AI systems.",
+    "I am passionate about building AI systems that can solve real-world problems and make a difference in people's lives.",
   ],
   highlights: [
     { label: "Projects Completed", value: "15+" },
     { label: "Technologies Learned", value: "20+" },
-    { label: "GitHub Contributions", value: "500+" },
-    { label: "Cups of Coffee", value: "∞" },
+    { label: "GitHub Contributions", value: "100+" },
+    { label: "DSA questions", value: "250+" },
   ],
 };
 
@@ -82,6 +84,40 @@ export const projectsData = [
       "Feature engineering + train/test split (80/20)",
       "Multiple models trained: Logistic Regression, Random Forest, SVM",
       "Best model selected via cross-validation → deployed on Flask API",
+    ],
+  },
+  {
+    title: "Smart Energy Consumption Prediction",
+    description:
+      "A machine learning model that predicts short-term household energy usage based on historical weather and time data. I processed the data, extracted key patterns like peak hours, and used a Random Forest algorithm to ensure reliable predictions.",
+    techStack: ["Python", "scikit-learn", "Pandas", "Random Forest", "Feature Engineering"],
+    liveLink: "#",
+    githubLink: "#",
+    image: null,
+    featured: true,
+    pipeline: [
+      "Collected historical energy, weather, and time data",
+      "Cleaned data and handled missing values",
+      "Engineered new features like peak hours and rolling averages",
+      "Trained a Random Forest model on the processed data",
+      "Evaluated the model using RMSE and R² score for accurate predictions",
+    ],
+  },
+  {
+    title: "Employee Attrition Prediction",
+    description:
+      "An HR analytics model that predicts whether an employee is likely to leave the company. By analyzing factors like job satisfaction and income, the model helps identify the key reasons behind employee turnover using Logistic Regression.",
+    techStack: ["Python", "scikit-learn", "Pandas", "Logistic Regression", "Data Analysis"],
+    liveLink: "#",
+    githubLink: "#",
+    image: null,
+    featured: true,
+    pipeline: [
+      "Gathered HR data including salary, role, and job satisfaction",
+      "Preprocessed data by handling missing values and encoding text",
+      "Created new metrics like income-to-experience ratio",
+      "Addressed class imbalance and trained a Logistic Regression model",
+      "Analyzed model coefficients to find the top drivers of attrition",
     ],
   },
 ];
@@ -167,7 +203,6 @@ export const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
-  { name: "Skills", href: "#skills" },
   { name: "Experience", href: "#experience" },
   { name: "Contact", href: "#contact" },
 ];

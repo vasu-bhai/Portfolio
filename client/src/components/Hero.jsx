@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { personalInfo } from '../data/portfolioData';
 
 const roles = [
-  'Full-Stack Developer',
   'AI/ML Enthusiast',
   'Problem Solver',
   'Open Source Contributor',
